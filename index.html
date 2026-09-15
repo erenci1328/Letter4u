@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Untuk Kamu yang Sendirian 🌙</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND STARS -->
+  <div class="stars"></div>
+
+  <main class="container">
+
+    <!-- INTRO -->
+    <section class="intro" id="intro">
+
+      <div class="moon">🌙</div>
+
+      <p class="small-text">SURAT RANDOM #03</p>
+
+      <h1>
+        Buat kamu yg<br>
+        ngerasa sendirian.
+      </h1>
+
+      <p class="subtitle">
+        Kamu gak kenal aku.<br>
+        Aku juga gak kenal kamu.
+        <br><br>
+        Tapi mungkin...
+        <b>kamu butuh baca ini.</b>
+      </p>
+
+      <button class="open-btn" onclick="openLetter()">
+        💌 Buka suratnya
+      </button>
+
+    </section>
+
+
+    <!-- LETTER -->
+    <section class="letter-section" id="letter">
+
+      <div class="letter">
+
+        <div class="letter-top">
+          <span>untuk seseorang di luar sana,</span>
+          <span>02:?? AM</span>
+        </div>
+
+        <h2>
+          Buat kamu yg<br>
+          lagi ngerasa sendirian.
+        </h2>
+
+        <div class="content">
+
+          <p>
+            Aku gak kenal kamu. Kamu juga gak kenal aku.
+            Tapi kalau kamu sedang baca ini sambil mikir,
+            <i>“Ada gak sih yg beneran peduli sama gue?”</i>
+          </p>
+
+          <p>
+            Aku harap surat random ini bisa jadi jawaban kecil:
+            <strong>perasaanmu valid.</strong>
+          </p>
+
+          <p>
+            Kadang yang paling sepi bukan kamar kosong.
+            Tapi saat kamu dikelilingi banyak orang dan tetap
+            merasa gak ada satu pun yg benar-benar ngerti.
+          </p>
+
+          <p>
+            Dan please, jangan bandingin hidupmu sama story orang.
+            Itu cuma 15 detik terbaik dari hidup mereka.
+            Kamu gak pernah lihat bagian
+            <i>“habis upload terus bengong di kamar.”</i>
+            IYKYK.
+          </p>
+
+          <div class="analogy">
+            <span>🌌</span>
+            <p>
+              Kamu kayak bintang yang ketutup awan.
+              Bukan berarti kamu hilang.
+              Cuma dari tempatmu sekarang,
+              cahayanya lagi susah kelihatan.
+            </p>
+          </div>
+
+          <p>
+            Jadi coba satu hal kecil malam ini:
+            keluar kamar sebentar, minum air, denger lagu
+            yg bikin nyaman, atau chat seseorang dengan pesan sederhana:
+          </p>
+
+          <div class="chat">
+            “Lo lagi sibuk gak?”
+          </div>
+
+          <p>
+            Gak harus kuat sendirian terus.
+            Manusia bukan paket unlimited. 😭
+          </p>
+
+          <p>
+            Dan kalau hari ini rasanya berat banget,
+            gak apa-apa kalau kamu cuma bisa melewati hari ini.
+            Besok urusan besok.
+          </p>
+
+          <p class="ending">
+            Tapi satu hal:
+            <br>
+            <strong>
+              jangan ikut meninggalkan dirimu sendiri.
+            </strong>
+          </p>
+
+        </div>
+
+
+        <!-- QUOTE -->
+        <div class="quote-box">
+
+          <p>
+            “Kalau hari ini kamu merasa gak punya siapa-siapa,
+            setidaknya jangan ikut meninggalkan dirimu sendiri.”
+          </p>
+
+          <button onclick="copyQuote()">
+            📋 Copy quote
+          </button>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="letter-footer">
+          <p>
+            dari seseorang yg juga pernah merasa sendirian.
+          </p>
+
+          <span>♡</span>
+        </div>
+
+      </div>
+
+
+      <!-- RANDOM MESSAGE -->
+      <div class="random-area">
+
+        <p>
+          Masih ngerasa sendirian?
+        </p>
+
+        <button onclick="randomMessage()">
+          ✨ Kasih aku satu pesan random
+        </button>
+
+        <div class="random-message" id="randomMessage">
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- MUSIC -->
+ <audio id="music" loop src="https://pixeldrain.com/api/file/8MBS3j3t"></audio>
+
+  <button class="music-btn" onclick="toggleMusic()">
+    🎵
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+  </html>
